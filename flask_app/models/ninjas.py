@@ -22,7 +22,7 @@ class Ninjas:
         Ninjas = []
         # Iterate over the db results and create instances of friends with cls.
         for ninjas in results:
-            Ninjas.append( cls(Ninjas) )
+            Ninjas.append( cls(ninjas) ) # make sure injas in line 24 is the same as 25 clss ninja
         return Ninjas
 
     @classmethod
